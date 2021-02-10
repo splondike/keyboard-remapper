@@ -1,0 +1,15 @@
+[Unit]
+Description=Modify the behaviour of the keyboard
+Wants=systemd-udev-settle.service
+After=systemd-udev-settle.service
+Documentation=man:udev(7)
+
+[Service]
+ExecStart=/opt/interception-tools/udevmon -c /opt/interception-tools/udevmon.yaml
+Nice=-20
+UMask=0777
+Restart=on-failure
+OOMScoreAdjust=-1000
+
+[Install]
+WantedBy=multi-user.target
