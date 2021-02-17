@@ -1,3 +1,3 @@
-- JOB: /opt/interception-tools/intercept -g $DEVNODE | /opt/interception-tools/dual-function-keys -c /opt/interception-tools/dual-function-keys.yaml | /opt/interception-tools/keyboard-remapper /run/keyboard-remapper.sock | /opt/interception-tools/uinput -c /opt/interception-tools/uinput.yaml
+- JOB: /opt/interception-tools/intercept -g $DEVNODE | /opt/interception-tools/dual-function-keys -c /opt/interception-tools/dual-function-keys.yaml | /opt/interception-tools/keyboard-remapper /run/keyboard-remapper.sock | /opt/interception-tools/sticky-shift | /opt/interception-tools/uinput -c /opt/interception-tools/uinput.yaml
   DEVICE:
     LINK: /dev/input/by-id/usb-Microsoft_Microsoft®_2.4GHz_Transceiver_v9.0-event-kbd
