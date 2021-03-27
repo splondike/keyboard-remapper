@@ -7,7 +7,7 @@ This project uses [interception tools](https://gitlab.com/interception/linux/too
 * A mouse mode where the keyboard can be used to control the mouse pointer and click.
 * A sticky shift like the XAccess one that times out after a few seconds
 
-I also use [dual-function-keys](https://gitlab.com/interception/linux/plugins/dual-function-keys) (another interception tools script) to map right alt to control when held, and to escape when tapped. I'm also using the built in X sticky shift (tap or hold to make next key shifted, double tap for caps lock mode), and the Colemak keyboard layout.
+I also use [dual-function-keys](https://gitlab.com/interception/linux/plugins/dual-function-keys) (another interception tools script) to map right alt to control when held, and to escape when tapped. I'm also using the Colemak keyboard layout.
 
 # Building and usage
 
